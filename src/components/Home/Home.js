@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            This is home
+            This is home after cicd
         </div>
     )
 }
