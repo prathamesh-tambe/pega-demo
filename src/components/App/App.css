@@ -114,6 +114,19 @@
     outline: none;
 }
 
+.sidebar__menuWrap::-webkit-scrollbar {
+    width: 5px;
+}
+.sidebar__menuWrap::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+.sidebar__menuWrap::-webkit-scrollbar-thumb {
+    background: #888; 
+}  
+.sidebar__menuWrap::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 .menu{
     max-height: 635px;
 }
@@ -165,17 +178,4 @@ nav ul li a{
     width:100%;
     color:white;
     text-decoration: none;
-}
-
-.sidebar__menuWrap::-webkit-scrollbar {
-    width: 5px;
-}
-.sidebar__menuWrap::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-}
-.sidebar__menuWrap::-webkit-scrollbar-thumb {
-    background: #888; 
-}  
-.sidebar__menuWrap::-webkit-scrollbar-thumb:hover {
-    background: #555; 
 }
